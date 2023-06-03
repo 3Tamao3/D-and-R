@@ -1,0 +1,69 @@
+
+
+.text {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: arial;
+  
+}
+
+h1 {
+  font-size: 86px;
+}
+
+body {
+  background-color: #604c7c;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+}
+
+header main{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -8px;
+    padding: 20px 40px;
+    margin-right: -8px;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+header ul li a{
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.6s ease;
+}
+
+header ul li a:hover{
+    color:#604c7c;
+}
+
+.Kontakt p{
+    margin: 0em;
+}
+
+img{
+    margin-top: -16px;
+    margin-left: -8px;
+    width: 1864px;
+    height: 600px;
+}
+
