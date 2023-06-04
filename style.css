@@ -70,6 +70,20 @@ img {
   height: auto;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  h1 {
+    font-size: 64px;
+  }
+
+  img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
 .Services p {
   font-size: 60px;
 }
@@ -105,46 +119,6 @@ img {
   position: absolute;
   left: 1650px;
 }
-
-/* Media Queries */
-
-@media only screen and (max-width: 768px) {
-  /* Styles for screens smaller than 768px */
-  .text {
-    font-size: 18px;
-  }
-
-  img {
-    margin-top: 0;
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .Services p {
-    font-size: 40px;
-  }
-
-  .Services {
-    font-size: 30px;
-  }
-
-  .Kontakt p {
-    font-size: 40px;
-  }
-
-  .Adresse p {
-    font-size: 16px;
-  }
-
-  .Kontakt_H1 {
-    margin-top: 100px;
-    margin-bottom: 10px;
-  }
-
-  .bar_right1,
-  .bar_right2 {
-    position: static;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+a {
+  color: white;
 }
