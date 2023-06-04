@@ -74,13 +74,19 @@ img {
 
 @media only screen and (max-width: 768px) {
   /* Styles for screens smaller than 768px */
-  h1 {
-    font-size: 64px;
-  }
+
 
   img {
     margin-top: 0;
-    margin-left: 0;
+    margin-left: -6;
+  }
+
+  header ul{
+    padding: 40px 40px;
+  }
+
+  .Kontakt p{
+    font-size: 10px;
   }
 }
 
@@ -110,15 +116,6 @@ img {
   margin-bottom: 20px;
 }
 
-.bar_right1 {
-  position: absolute;
-  left: 1500px;
-}
-
-.bar_right2 {
-  position: absolute;
-  left: 1650px;
-}
 a {
   color: white;
 }
