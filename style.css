@@ -1,12 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .text {
   color: white;
   text-align: center;
   font-size: 23px;
   font-family: arial;
-}
-
-h1 {
-  font-size: 86px;
 }
 
 body {
@@ -53,7 +53,7 @@ header ul li a:hover {
   color: #604c7c;
 }
 
-.Kontakt li{
+.Kontakt li {
   padding-left: 100px;
   margin: 0em;
   font-size: 30px;
@@ -63,11 +63,11 @@ header ul li a:hover {
 }
 
 img {
-    margin-top: -16px;
-    margin-left: -8px;
-    width: calc(100% + 16px);
-    max-width: 1864px;
-    height: auto;
+  margin-top: -16px;
+  margin-left: -8px;
+  width: calc(100% + 16px);
+  max-width: 1864px;
+  height: auto;
 }
 
 /* Media Queries */
@@ -84,15 +84,41 @@ img {
   }
 }
 
-.Services p{
-    font-size: 60px;
+.Services p {
+  font-size: 60px;
 }
 
-.Services{
-    font-size: 45px;
+.Services {
+  font-size: 45px;
 }
 
 .Kontakt p {
-    font-size: 50px;
-    
+  font-size: 50px;
+}
+
+.Adresse p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.Adresse {
+  margin-bottom: 100px;
+}
+
+.Kontakt_H1 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.bar_right1 {
+  position: absolute;
+  left: 1500px;
+}
+
+.bar_right2 {
+  position: absolute;
+  left: 1650px;
+}
+a {
+  color: white;
 }
