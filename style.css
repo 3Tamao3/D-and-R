@@ -1,3 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin-top: 0px;
+  height: 1850px;
+  width: 1000px;
+  background-color: #604c7c;
+  border: 0px solid #4e017a;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +37,7 @@ html {
 }
 
 body {
-  background-color: #604c7c;
+  background-color: #4e017a;
 }
 
 ul {
