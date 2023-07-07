@@ -90,6 +90,7 @@ header ul li a:hover {
 }
 
 img {
+  border-radius: 0% 0% 30px 30px;
   margin-top: -16px;
   margin-left: -8px;
   width: calc(100% + 16px);
@@ -102,17 +103,16 @@ img {
 @media only screen and (max-width: 768px) {
   /* Styles for screens smaller than 768px */
 
-
   img {
     margin-top: 0;
     margin-left: -6;
   }
 
-  header ul{
+  header ul {
     padding: 40px 40px;
   }
 
-  .Kontakt p{
+  .Kontakt p {
     font-size: 10px;
   }
 }
@@ -146,3 +146,18 @@ img {
 a {
   color: white;
 }
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4e017a; /* Set your desired background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Set a high z-index to ensure it appears on top */
+}
+
+
